@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>form3.2_0110121191_ZakiyyahNurfida</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+  </style>
+</head>
+
+<body style="max-width: 65%; border: 3px solid black; margin: auto;">
+  <header style="background-color: white ;  border-bottom: 1px solid black;">
+    <nav style="  display: flex; padding: 10px; border-bottom: 1px solid black;">
+      <ul style="display: flex; list-style-type: none; gap: 10px;">
+        <li> <img src="https://w7.pngwing.com/pngs/930/131/png-transparent-computer-icons-button-arrow-left-arrow-angle-hand-logo-thumbnail.png" width="20px" /></li>
+        <li> <img src="https://img1.pngdownload.id/20180418/oge/kisspng-arrow-emoji-computer-icons-right-arrow-5ad6ec2b1daeb3.5176007815240346031216.jpg" width="20px" /></li>
+        <li> <img src="https://img1.pngdownload.id/20180728/iku/kisspng-button-computer-icons-totokaelo-encapsulated-posts-cross-sign-5b5cc1d51f50d4.6089844315328055891283.jpg" width="20px" /></li>
+        <li> <img src="https://img2.pngdownload.id/20180605/ghc/kisspng-logo-house-home-home-made-5b16140c5a9396.111397381528173580371.jpg" width="22px" /></li>
+        <li><input style="font-weight: bolder; width: 700px; heigt: 10px; padding-bottom: none ; padding-top: none;">
+        </li>
+        <li> <img src="https://static.thenounproject.com/png/2161472-200.png" width="20px" /></li>
+      </ul>
+    </nav>
+  </header>
+
+  <fieldset style="height: 500px; background-color: beige;">
+    <br>
+    <nav style="margin-left: 30px; padding: 5px; border: 2px solid black; width: 92%; margin-right: 30px;">
+      <ul style="display: flex; list-style-type: none; gap: 60px; padding-left: 30px;">
+        <li><b>Home |</b></li>
+        <li><b>Generate Link |</b></li>
+        <li><b>Transaction History |</b></li>
+        <li><b>Policy |</b></li>
+        <li><b>Logout</b></li>
+      </ul>
+    </nav>
+    <br>
+
+    <div style="display: flex; margin-left: auto;">
+      <table>
+        <thead>
+          <tr>
+            <th>
+              <img src="https://iconape.com/wp-content/png_logo_vector/upload-5.png" width="250px" style="padding-left: 30px"/>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td align="center">
+              <input style="background-color: grey; width: 130px;" type="Submit" value="Upload Picture">
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <br>
+
+      <aside style="display: flex; margin-left: 30px;">
+        <table>
+          <form>
+            <label>
+              <tr>
+                <td>Title Here</td>
+                <td>:</td>
+                <td><input type="text" name="Name"></td>
+              </tr>
+            </label>
+          </form>
+          <form>
+            <label>
+              <tr>
+                <td valign="top">Description</td>
+                <td valign="top">:</td>
+                <td><textarea name="Description" cols="40" rows="5" maxlength="400"></textarea></td>
+              </tr>
+            </label>
+          </form>
+          <form>
+            <label>
+              <tr>
+                <td>Account Number</td>
+                <td>:</td>
+                <td><input type="number" name="Account Number"></td>
+              </tr>
+            </label>
+          </form>
+          <form>
+            <label>
+              <tr>
+                <td>Bank</td>
+                <td>:</td>
+                <td><input type="text" list="bank" name="Bank">
+                  <datalist id="bank">
+                    <option value="HSBC"></option>
+                    <option value="BNI"></option>
+                    <option value="BRI"></option>
+                  </datalist>
+                </td>
+              </tr>
+            </label>
+          </form>
+          <form>
+            <label>
+              <tr>
+                <td>Account Holder</td>
+                <td>:</td>
+                <td><input type="text" name="Account Holder"></td>
+              </tr>
+            </label>
+          </form>
+          <form>
+            <label>
+              <tr>
+                <td valign="top">Transaction</td>
+                <td valign="top">:</td>
+                <td style="border: 1px solid white;">
+                    <input type="number">
+                  <p>
+                    *if the Transaction is for 3 person, Choose 3 form the drop-down list
+                  </p>
+                    <input type="checkbox">
+                    <label for="Send To Massage Mobile Phone"> Send to Mobile Phone </label>
+                    <br>
+                    <input type="checkbox">
+                    <label for="Send To Massage Email"> Send to Email </label>
+                </td>
+              </tr>
+            </label>
+          </form>
+          <form>
+            <label>
+              <tr>
+                <td>Send to Mobile Phone</td>
+                <td>:</td>
+                <td><input type="number" name="Send"></td>
+              </tr>
+            </label>
+          </form>
+          <form>
+            <label>
+              <tr>
+                <td>Send to Email</td>
+                <td>:</td>
+                <td>
+                  <input type="text" name="Email">
+                </td>
+              </tr>
+            </label>
+          </form> 
+          <form>
+            <label>
+              <tr>
+                <td>
+                  <br>
+                </td>
+              </tr>
+            </label>
+          </form>
+          <form>
+            <label>
+              <tr>
+                <td>
+                  <input style="background-color: green; width: 130px; margin-left: 105%;" type="Submit" value="Generate Nabr Link">
+                </td>
+              </tr>
+            </label>
+          </form>
+        </table>
+      </aside>
+    </div>
+  </fieldset>
+</body>
+
+</html>
